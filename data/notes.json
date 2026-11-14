@@ -76,5 +76,18 @@
     "summary": "本篇說明企業流程範疇與分類，區分主要、關鍵與支援流程，呈現展開至工作程序書 SOP 的層級結構，並介紹以 5W2H 分析及 ECRS 改善原則。",
     "sourcePage": "p.66–76",
     "filePath": "notes/business-process-ecrs.md"
+  },
+  {
+    "id": "cash-to-cash-cycle",
+    "title": "現金轉換循環（C2C／CCC）原理、影響因素與跨部門改善實務",
+    "chapter": "第3堂課：智慧生產與供應鏈管理",
+    "chapterOrder": 4,
+    "topic": "營運資金與現金流管理",
+    "tags": ["現金轉換循環", "C2C", "CCC", "營運循環", "應收帳款", "應付帳款", "庫存管理", "跨部門協同"],
+    "created": "2026-11-14",
+    "updated": "2026-11-14",
+    "summary": "本篇說明現金轉換循環（C2C／CCC）之定義、計算公式與組成要素，分析生產銷貨、應收與應付帳款速度之影響因素，並彙整財務、研發、生產、採購等跨部門改善現金流之實務作法。",
+    "sourcePage": "p.23–33",
+    "filePath": "notes/cash-to-cash-cycle.md"
   }
 ]
