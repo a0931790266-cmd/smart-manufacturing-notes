@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>智慧製造筆記收藏館 | 課程知識庫</title>
+  <meta name="description" content="智慧製造課程筆記收藏館，提供即時搜尋、分類篩選與完整閱讀。">
+  <!-- 外部樣式表 -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- 手機版頂部標題列 -->
+  <header class="mobile-topbar">
+    <div class="mobile-title">智慧製造筆記收藏館</div>
+    <button type="button" class="mobile-menu-btn" id="mobile-menu-btn" aria-label="切換選單">選單 ☰</button>
+  </header>
+
+  <!-- 手機版側邊欄背景遮罩 -->
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+  <div class="app-layout">
+    <!-- 左側深藍灰色固定側邊欄 -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <span class="brand-badge">Knowledge Base</span>
+        <h1 class="sidebar-title">智慧製造筆記</h1>
+        <p class="sidebar-subtitle">課程學習歷程與核心觀念收藏館</p>
+      </div>
+
+      <!-- 統計數據區塊 -->
+      <div class="sidebar-stats">
+        <div class="stat-item">
+          <span class="stat-label">收錄筆記總數</span>
+          <span class="stat-value" id="total-notes-count">0</span>
+        </div>
+      </div>
+
+      <!-- 分類導航區塊 -->
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">課程章節</div>
+        <ul class="filter-list" id="sidebar-chapter-list">
+          <!-- 由 app.js 動態渲染 -->
+        </ul>
+
+        <div class="nav-section-title" style="margin-top: 10px;">知識主題</div>
+        <ul class="filter-list" id="sidebar-topic-list">
+          <!-- 由 app.js 動態渲染 -->
+        </ul>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div>智慧製造筆記系統 v1.0</div>
+        <div style="margin-top: 4px; opacity: 0.75;">基於 AGENTS.md 規範建置</div>
+      </div>
+    </aside>
+
+    <!-- 右側主內容區 -->
+    <main class="main-content">
+      <div class="content-inner">
+
+        <!-- 網站介紹橫幅 (Hero Banner) -->
+        <section class="hero-banner">
+          <h2 class="hero-title">智慧製造筆記收藏館</h2>
+          <p class="hero-description">
+            本知識庫旨在系統化整理與歸納智慧製造課程內容，涵蓋自動化架構、通訊協定、邊緣運算與製造數據分析，提供筆記檢索、依章節/主題篩選及結構化複習體驗。
+          </p>
+        </section>
+
+        <!-- 搜尋與排序控制列 -->
+        <section class="controls-bar">
+          <div class="search-box-wrap">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input" class="search-input" placeholder="搜尋筆記標題、摘要、章節、主題或標籤..." aria-label="關鍵字搜尋">
+          </div>
+
+          <div class="sort-and-filters">
+            <span class="sort-label">排序方式：</span>
+            <div class="sort-btn-group">
+              <button type="button" id="sort-newest-btn" class="sort-btn active">最新新增</button>
+              <button type="button" id="sort-chapter-btn" class="sort-btn">章節順序</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 目前已套用的篩選標籤指示條 -->
+        <div class="active-filters-bar" id="active-filters-bar" style="display: none;"></div>
+
+        <!-- 最近新增筆記區塊 -->
+        <section id="recent-notes-section" style="margin-bottom: 24px;">
+          <div class="section-header">
+            <h3 class="section-title">最近新增</h3>
+          </div>
+          <div class="notes-grid" id="recent-notes-grid">
+            <!-- 由 app.js 動態載入最近新增卡片 -->
+          </div>
+        </section>
+
+        <!-- 全部筆記摘要卡片區塊 / 搜尋與篩選結果區塊 -->
+        <section id="all-notes-section">
+          <div class="section-header">
+            <h3 class="section-title" id="notes-list-title">全部筆記</h3>
+            <span class="section-count" id="all-notes-count"></span>
+          </div>
+          <div class="notes-grid" id="all-notes-grid">
+            <!-- 由 app.js 動態載入全部卡片 -->
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- 應用邏輯腳本 (v=2 快取破除) -->
+  <script src="./js/app.js?v=2"></script>
+</body>
+</html>

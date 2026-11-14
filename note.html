@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>筆記閱讀 | 智慧製造筆記收藏館</title>
+  <meta name="description" content="智慧製造筆記詳細閱讀頁面。">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- 手機版頂部標題列 -->
+  <header class="mobile-topbar">
+    <div class="mobile-title">智慧製造筆記</div>
+    <a href="./index.html" class="mobile-menu-btn" style="text-decoration: none;">&larr; 返回總覽</a>
+  </header>
+
+  <main class="note-view-container" id="note-view-wrapper">
+    <!-- 頂部返回按鈕列 -->
+    <div class="note-nav-bar">
+      <a href="./index.html" class="btn-back">&larr; 返回筆記總覽</a>
+      <span style="font-size: 0.85rem; color: var(--text-muted);">智慧製造筆記收藏館</span>
+    </div>
+
+    <!-- 筆記文章卡片 -->
+    <article class="note-article">
+      <!-- 筆記檔頭中繼資料區塊 -->
+      <header class="note-header" id="note-header-container">
+        <!-- 由 note.js 動態渲染 -->
+      </header>
+
+      <!-- 筆記 Markdown 內文區塊 -->
+      <div class="markdown-body" id="note-body-container">
+        <!-- 由 note.js 解析 Markdown 動態填入 -->
+      </div>
+
+      <!-- 筆記頁尾資料來源標示區塊 -->
+      <footer class="note-footer" id="note-footer-container">
+        <!-- 由 note.js 動態渲染 -->
+      </footer>
+    </article>
+  </main>
+
+  <!-- Markdown 解析函式庫與頁面邏輯 -->
+  <script src="./lib/markdown-parser.js"></script>
+  <script src="./js/note.js"></script>
+</body>
+</html>

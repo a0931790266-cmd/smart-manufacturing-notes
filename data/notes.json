@@ -1,0 +1,80 @@
+[
+  {
+    "id": "enterprise-value-and-ipo-system",
+    "title": "企業價值來源與 IPO 管理開放系統",
+    "chapter": "第2堂課：智慧生產與供應鏈管理",
+    "chapterOrder": 3,
+    "topic": "生產系統架構",
+    "tags": ["企業價值", "IPO模式", "4M1E", "資金成本", "製造演進"],
+    "created": "2026-11-14",
+    "updated": "2026-11-14",
+    "summary": "本篇探討企業價值來源方程式，透過 IPO 架構解析管理系統，涵蓋 4M1E 生產要素、固定與變動及資金成本計算，以及製造流程由合理化邁向智慧化的演進歷程。",
+    "sourcePage": "p.12–18, 20–24, 78",
+    "filePath": "notes/enterprise-value-and-ipo-system.md"
+  },
+  {
+    "id": "qcdfs-customer-value",
+    "title": "QCDFS 客戶價值維度與競爭力分析",
+    "chapter": "第2堂課：智慧生產與供應鏈管理",
+    "chapterOrder": 3,
+    "topic": "客戶價值管理",
+    "tags": ["QCDFS", "品質屬性", "交易成本", "交期指標", "生產彈性", "服務面向", "藍海策略"],
+    "created": "2026-11-14",
+    "updated": "2026-11-14",
+    "summary": "本篇整理創造客戶價值的 QCDFS 架構，區分必要要素品質與成本，以及決定要素交期、彈性與服務，結合航空與購屋交易成本等課堂案例，說明製造型態與客戶期待之關聯。",
+    "sourcePage": "p.26–43, 36–64",
+    "filePath": "notes/qcdfs-customer-value.md"
+  },
+  {
+    "id": "vendor-managed-inventory",
+    "title": "VMI 供應商管理庫存機制與實務考量",
+    "chapter": "第2堂課：智慧生產與供應鏈管理",
+    "chapterOrder": 3,
+    "topic": "庫存管理",
+    "tags": ["VMI", "供應商管理庫存", "自動補貨", "庫存水位", "資訊共享"],
+    "created": "2026-11-14",
+    "updated": "2026-11-14",
+    "summary": "本篇說明 VMI 供應商管理庫存機制，由供應商依買方共享資訊主動維持庫存水位，涵蓋資訊共享、庫存管理、自動補貨與彈性所有權四步驟，並彙整其效益與導入考量。",
+    "sourcePage": "p.44–49",
+    "filePath": "notes/vendor-managed-inventory.md"
+  },
+  {
+    "id": "drop-shipment",
+    "title": "Drop Shipment 直接出貨營運模式與合作機制",
+    "chapter": "第2堂課：智慧生產與供應鏈管理",
+    "chapterOrder": 3,
+    "topic": "物流配送模式",
+    "tags": ["Drop-Shipment", "直接出貨", "供應鏈營運", "代工出貨"],
+    "created": "2026-11-14",
+    "updated": "2026-11-14",
+    "summary": "本篇介紹 Drop Shipment 直接出貨模式，由代工廠直發配送，賣方賺取差額並降低庫存與物流負擔，並彙整合作前對出貨可靠性、品質與系統對接的確認要點。",
+    "sourcePage": "p.51–56",
+    "filePath": "notes/drop-shipment.md"
+  },
+  {
+    "id": "rma-merchandise-authorization",
+    "title": "RMA 退貨授權管理與售後處理流程",
+    "chapter": "第2堂課：智慧生產與供應鏈管理",
+    "chapterOrder": 3,
+    "topic": "逆向物流與售後",
+    "tags": ["RMA", "退貨授權", "逆向物流", "售後服務", "保固管理"],
+    "created": "2026-11-14",
+    "updated": "2026-11-14",
+    "summary": "本篇整理 RMA 退貨授權管理之標準化售後流程，說明透過專屬 RMA 號碼追蹤商品的機制，包含客戶申請、供應商審核、商品寄回及後續維修換新或退款四項標準步驟。",
+    "sourcePage": "p.58–63",
+    "filePath": "notes/rma-merchandise-authorization.md"
+  },
+  {
+    "id": "business-process-ecrs",
+    "title": "企業流程階層劃分與 ECRS 流程改善法",
+    "chapter": "第2堂課：智慧生產與供應鏈管理",
+    "chapterOrder": 3,
+    "topic": "流程管理與改善",
+    "tags": ["流程管理", "主要業務流程", "關鍵流程", "支援流程", "5W2H", "ECRS", "SOP"],
+    "created": "2026-11-14",
+    "updated": "2026-11-14",
+    "summary": "本篇說明企業流程範疇與分類，區分主要、關鍵與支援流程，呈現展開至工作程序書 SOP 的層級結構，並介紹以 5W2H 分析及 ECRS 改善原則。",
+    "sourcePage": "p.66–76",
+    "filePath": "notes/business-process-ecrs.md"
+  }
+]
