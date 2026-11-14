@@ -1,0 +1,26 @@
+# 本機原始筆記目錄（嚴格排除，不得公開上傳）
+raw-notes/
+raw-notes/*
+
+# 環境變數與機密資訊
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+
+# 作業系統與編輯器暫存檔
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 測試或除錯記錄
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
